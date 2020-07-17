@@ -1,10 +1,10 @@
 export const useTabs = (initialTab, allTabs) => {
-    if (!allTabs || !Array.isArray(allTabs)) {
-      return;
-    }
-    const [currentIndex, setCurrentIndex] = useState(initialTab);
-    return {
-      currentItems: allTabs[currentIndex],
-      changeItems: setCurrentIndex
-    };
+  const [currentIndex, setCurrentIndex] = useState(initialTab);
+  if (!allTabs || !Array.isArray(allTabs)) {
+    return;
+  }
+  return {
+    currentItems: allTabs[currentIndex],
+    changeItems: setCurrentIndex
   };
+};
