@@ -6,25 +6,26 @@
 - [x] ~~useTabs~~
 - [x] ~~useTitle~~
 - [x] ~~useClick~~
+- [x] ~~useHover~~
+- [x] useConfirm
 - [ ] usePageLeave
 - [ ] useFadeIn
 - [ ] useFullScrean
-- [ ] useHover
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
 - [ ] usePreventLeave
-- [ ] useConfirm
 - [ ] useAxios
 
 ## useInput
-추후 작성 예정
 
 ## useTabs
-추후 작성 예정
 
 ## useTitle
-추후 작성 예정
 
 ## useClick
+
+## useHover
+
+## useConfirm
 추후 작성 예정
