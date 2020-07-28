@@ -9,7 +9,7 @@
 - [x] ~~useHover~~
 - [x] ~~useConfirm~~
 - [x] ~~usePreventLeave~~
-- [ ] usePageLeave
+- [x] ~~useBeforeLeave~~
 - [ ] useFadeIn
 - [ ] useFullScrean
 - [ ] useNetwork
@@ -30,4 +30,6 @@
 ## useConfirm
 
 ## usePreventLeave
+
+## useBeforeLeave
 추후 작성 예정
