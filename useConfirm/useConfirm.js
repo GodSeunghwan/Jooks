@@ -1,5 +1,8 @@
 export const useConfirm = (message = "", callback, rejection) => {
-  if (typeof callback !== "function" && rejection !== "function") {
+  if (!callback || typeof callback !== "function") {
+    return;
+  }
+  if (!rejection || typeof rejection !== "function") {
     return;
   }
   const confirmAction = () => {

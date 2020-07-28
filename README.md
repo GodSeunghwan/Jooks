@@ -7,14 +7,14 @@
 - [x] ~~useTitle~~
 - [x] ~~useClick~~
 - [x] ~~useHover~~
-- [x] useConfirm
+- [x] ~~useConfirm~~
+- [x] ~~usePreventLeave~~
 - [ ] usePageLeave
 - [ ] useFadeIn
 - [ ] useFullScrean
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
-- [ ] usePreventLeave
 - [ ] useAxios
 
 ## useInput
@@ -28,4 +28,6 @@
 ## useHover
 
 ## useConfirm
+
+## usePreventLeave
 추후 작성 예정
